@@ -1,0 +1,35 @@
+import { Canvas, Meta } from "@storybook/blocks";
+import * as MyButton from "./mybutton.stories.tsx";
+
+<Meta title="MyButton" of={MyButton} />
+
+# MyButton
+Componente de botón propio creado a partir del botón de MUI.
+
+## Example
+
+<Canvas>
+    <MyButton.Primary />
+</Canvas>
+
+## Usage
+
+```ts
+import { MyButton } from 'milibreria';
+
+function Example() {
+    return (
+        <MyButton
+            text="Button primary"
+            txtcolor="black"
+            bgcolor="red"
+            disabled={false}
+            size="small"
+            width= 100
+            hover= "lightgray"
+            bgHover = "darkblue"
+            borderColor = "darkblue"
+            onClick={() => alert("Button Primary")}
+        />
+    );
+}
