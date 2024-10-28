@@ -1,0 +1,32 @@
+import { Canvas, Meta } from "@storybook/blocks";
+import * as TahicheHAStory from "./TahicheHA.stories.tsx";
+
+<Meta title="TahicheHA" of={TahicheHAStory} />
+
+# TahicheHA
+Componente de ícono de compartir, basado en `IconButton` y `ShareIcon` de MUI.
+
+## Example
+
+<Canvas>
+    <TahicheHAStory.Primary />
+</Canvas>
+
+## Usage
+
+```ts
+import { TahicheHA } from 'milibreria';
+
+function Example() {
+    return (
+        <TahicheHA
+            iconColor="blue"
+            disabled={false}
+            onClick={() => alert("Icono compartido clicado!")}
+            tooltipText="Compartir"
+            size="medium"
+            backgroundColor="white"
+            iconSize={24}
+        />
+    );
+}

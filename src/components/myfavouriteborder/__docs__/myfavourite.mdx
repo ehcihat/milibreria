@@ -1,0 +1,28 @@
+import { Canvas, Meta } from "@storybook/blocks";
+import * as MyFavouriteBorder from "./myfavouriteborder.stories.tsx";
+
+<Meta title="MyFavouriteBorder" of={MyFavouriteBorder} />
+
+# MyFavouriteBorder
+Componente de ícono de favorito con borde, basado en `IconButton` y `FavoriteBorderIcon` de MUI.
+
+## Example
+
+<Canvas>
+    <MyFavouriteBorder.Default />
+</Canvas>
+
+## Usage
+
+```ts
+import { MyFavouriteBorder } from 'milibreria';
+
+function Example() {
+    return (
+        <MyFavouriteBorder
+            iconColor="blue"
+            disabled={false}
+            onClick={() => alert("Favorite Border Icon clicado!")}
+        />
+    );
+}
