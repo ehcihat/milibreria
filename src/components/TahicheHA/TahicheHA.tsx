@@ -1,6 +1,7 @@
 import { MouseEventHandler } from 'react';
 import { IconButton, Tooltip } from '@mui/material';
 import ShareIcon from '@mui/icons-material/Share';
+//Tahiche Acorán Hernández Almeida
 //Declaro la interface del componente. 
 export interface TahicheHAProps {
     iconColor: string; // prop del color del icono

@@ -1,6 +1,7 @@
 import { MouseEventHandler} from 'react';
 import { IconButton } from '@mui/material';
 import FavoriteIcon from '@mui/icons-material/Favorite';
+//Tahiche Acorán Hernández Almeida
 //Declaro la interface del componente. 
 export interface MyFavouriteProps {
     iconColor: string; // prop del color del icono
