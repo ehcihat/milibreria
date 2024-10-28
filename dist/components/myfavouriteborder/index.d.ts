@@ -1,1 +1,1 @@
-export { default as MyFavouriteBorder } from './myfavouriteborder';
+export { default as MyFavouriteBorder } from './MyFavouriteBorder';
