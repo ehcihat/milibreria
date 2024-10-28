@@ -6366,20 +6366,10 @@ process.env.NODE_ENV !== "production" && (zo.propTypes = {
   variant: v.oneOfType([v.oneOf(["contained", "outlined", "text"]), v.string])
 });
 function Cu(e) {
-  const { bgcolor: t, text: r, txtcolor: n, disabled: o, onClick: i, size: a } = e;
+  var t = e.bgcolor, r = e.text, n = e.txtcolor, o = e.disabled, i = e.onClick, a = e.size;
   return (
     //Uso el Button de la librería MUI y lo personalizo con las props que pasan a mi componente.
-    /* @__PURE__ */ Le.jsx(
-      zo,
-      {
-        type: "button",
-        onClick: i,
-        disabled: o,
-        size: a,
-        sx: { backgroundColor: t, color: n },
-        children: r
-      }
-    )
+    Le.jsx(zo, { type: "button", onClick: i, disabled: o, size: a, sx: { backgroundColor: t, color: n }, children: r })
   );
 }
 export {

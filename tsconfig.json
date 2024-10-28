@@ -11,10 +11,10 @@
         "skipLibCheck": true, // Omite la verificación de tipos de archivos de declaración.
         /* Bundler */
         "moduleResolution": "bundler", // Especifica cómo se resuelven los módulos  en el bundler.
-        "allowImportingTsExtensions": true, // Permite importar archivos TypeScript con extensiones.
+        "allowImportingTsExtensions": false, // Permite importar archivos TypeScript con extensiones.
         "resolveJsonModule": true, // Permite importar módulos JSON.
         "isolatedModules": true, // Garantiza que cada archivo se trate como un módulo independiente.
-        "noEmit": true, // Evita que TypeScript genere archivos de salida.
+        "noEmit": false, // Evita que TypeScript genere archivos de salida.
         "jsx": "react-jsx", // Establece el soporte JSX para React.
         /* Linting */
         "strict": true, // Habilita la verificación estricta de tipos.
