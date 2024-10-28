@@ -1,1 +1,1 @@
-export { default as CustomTahicheHA } from './tahicheha';
+export { default as CustomTahicheHA } from './TahicheHA';
